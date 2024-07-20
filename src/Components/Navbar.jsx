@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center w-22 h-16">
             <img
               src="../../public/Rhynologo.png"
-              class="w-full h-full object-cover"
+              className="w-full h-full object-cover"
               alt="Flowbite Logo"
             />
           </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
           </div>
          
           <div className="hidden w-full md:block md:w-auto" id="">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-CustomWhite-3 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0   dark:border-CustomDarkGrey-1">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-CustomWhite-3 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0   dark:border-CustomDarkGrey-1">
               <li>
                 <Link
                   to="/"
@@ -128,6 +128,7 @@ const Navbar = () => {
           <Link to="/se" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1 " onClick={toggleOffAllMenu}>SE03 Lite</Link>
           <Link to="/semax" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03</Link>
           <Link to="/selite" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03 Max</Link>
+          <Link to="/compareAll" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>Compare All</Link>
         </div>
       </div>
 
@@ -136,6 +137,7 @@ const Navbar = () => {
           <Link to="/se" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1 " onClick={toggleOffAllMenu}>SE03 Lite</Link>
           <Link to="/semax" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03</Link>
           <Link to="/selite" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03 Max</Link>
+          <Link to="/compareAll" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>Compare All</Link>
         </div>
       </div>
 

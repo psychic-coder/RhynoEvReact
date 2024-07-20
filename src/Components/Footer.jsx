@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {CiInstagram, CiLinkedin } from "react-icons/ci";
+import { CiInstagram, CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
@@ -24,17 +24,26 @@ const Footer = () => {
                 </h2>
                 <ul className="text-CustomDarkGrey-4 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline hover:text-CustomYellow-1">
+                    <a
+                      href="#"
+                      className="hover:underline hover:text-CustomYellow-1"
+                    >
                       Privacy policy
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="#" className="hover:underline hover:text-CustomYellow-1">
+                    <a
+                      href="#"
+                      className="hover:underline hover:text-CustomYellow-1"
+                    >
                       Refund policy
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline hover:text-CustomYellow-1">
+                    <a
+                      href="#"
+                      className="hover:underline hover:text-CustomYellow-1"
+                    >
                       Website policy
                     </a>
                   </li>
@@ -46,17 +55,26 @@ const Footer = () => {
                 </h2>
                 <ul className="text-CustomDarkGrey-4 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline hover:text-CustomYellow-1">
+                    <a
+                      href="#"
+                      className="hover:underline hover:text-CustomYellow-1"
+                    >
                       Contact Us
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="#" className="hover:underline hover:text-CustomYellow-1">
+                    <a
+                      href="#"
+                      className="hover:underline hover:text-CustomYellow-1"
+                    >
                       Products
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline hover:text-CustomYellow-1">
+                    <a
+                      href="#"
+                      className="hover:underline hover:text-CustomYellow-1"
+                    >
                       Career
                     </a>
                   </li>
@@ -74,17 +92,14 @@ const Footer = () => {
               . All Rights Reserved.
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
-              <a
-                href="#"
-                class="text-CustomWhite-1 hover:text-CustomYellow-1"
-              >
-               <CiInstagram  className="w-6 h-6" />
+              <a href="#" class="text-CustomWhite-1 hover:text-CustomYellow-1">
+                <CiInstagram className="w-6 h-6" />
               </a>
               <a
                 href="https://www.linkedin.com/company/rhyno-wheels/"
                 className="text-CustomWhite-1 hover:text-CustomYellow-1 ms-5"
               >
-               <CiLinkedin  className="w-6 h-6"/>
+                <CiLinkedin className="w-6 h-6" />
               </a>
             </div>
           </div>
