@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CompareAll = () => {
   return (
@@ -18,10 +19,12 @@ const CompareAll = () => {
                   <th className="py-3 px-4 font-bold rounded-tl-lg">
                     Specification
                   </th>
-                  <th className="py-3 px-4 font-bold">Rhyno SE03 Lite</th>
-                  <th className="py-3 px-4 font-bold">Rhyno SE03</th>
+                  <th className="py-3 px-4 font-bold"><Link to={"/selite"}>Rhyno SE03 Lite</Link></th>
+                  <th className="py-3 px-4 font-bold"><Link to={"/se"}>Rhyno SE03</Link> </th>
                   <th className="py-3 px-4 font-bold rounded-tr-lg">
+                    <Link to={"/semax"}>
                     Rhyno SE03 Max
+                    </Link>
                   </th>
                 </tr>
               </thead>
