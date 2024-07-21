@@ -55,24 +55,24 @@ const Footer = () => {
                 </h2>
                 <ul className="text-CustomDarkGrey-4 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a
-                      href="#"
+                    <Link
+                      to="/contactus"
                       className="hover:underline hover:text-CustomYellow-1"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a
-                      href="#"
+                    <Link
+                      to="/rentals"
                       className="hover:underline hover:text-CustomYellow-1"
                     >
-                      Products
-                    </a>
+                      Rentals
+                    </Link>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/rhyno-wheels/"
                       className="hover:underline hover:text-CustomYellow-1"
                     >
                       Career
