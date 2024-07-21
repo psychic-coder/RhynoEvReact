@@ -29,9 +29,9 @@ const Navbar = () => {
   }
 
   return (
-    <div>
-      <nav className="bg-white border-gray-200 dark:bg-CustomBlack-3">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div className="">
+      <nav className="bg-white border-gray-200 dark:bg-CustomBlack-3 ">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
           <Link to="/" className="flex items-center w-22 h-16">
             <img
               src="../../public/Rhynologo.png"
@@ -125,18 +125,18 @@ const Navbar = () => {
 
         <div className={`${isProductMenuOpen ? 'block' : 'hidden'} md:hidden `} id="navbar-default">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <Link to="/se" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1 " onClick={toggleOffAllMenu}>SE03 Lite</Link>
-          <Link to="/semax" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03</Link>
-          <Link to="/selite" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03 Max</Link>
+          <Link to="/selite" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1 " onClick={toggleOffAllMenu}>SE03 Lite</Link>
+          <Link to="/se" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03</Link>
+          <Link to="/semax" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03 Max</Link>
           <Link to="/compareAll" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>Compare All</Link>
         </div>
       </div>
 
       <div className={`${isProductMenuFull ? 'block' : 'hidden'}`} id="navbar-default z-10">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <Link to="/se" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1 " onClick={toggleOffAllMenu}>SE03 Lite</Link>
-          <Link to="/semax" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03</Link>
-          <Link to="/selite" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03 Max</Link>
+          <Link to="/selite" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1 " onClick={toggleOffAllMenu}>SE03 Lite</Link>
+          <Link to="/se" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03</Link>
+          <Link to="/semax" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>SE03 Max</Link>
           <Link to="/compareAll" className="text-CustomWhite-1 block px-3 py-2 rounded-md text-base font-medium dark:hover:text-CustomYellow-1" onClick={toggleOffAllMenu}>Compare All</Link>
         </div>
       </div>

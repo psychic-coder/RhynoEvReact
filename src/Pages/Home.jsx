@@ -1,10 +1,12 @@
 import React from 'react'
 import LandingPage from '../Components/LandingPage'
+import Carousel from '../Components/Carousel'
 
 const Home = () => {
   return (
-    <div className="h-screen">
+    <div className="">
        <LandingPage/> 
+       {/* <Carousel/> */}
     </div>
   )
 }
