@@ -10,7 +10,7 @@ const SEMax = () => {
   };
 
   return (
-    <div className="">
+    <div className=" bg-CustomBlack-3 ">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-[8rem] font-bold text-CustomWhite-1  bg-gradient-to-r from-CustomYellow-1 via-CustomWhite-4 to-CustomYellow-2 inline-block text-transparent bg-clip-text animate-text cursor-pointer">SE03 Max</h1>
         <motion.div

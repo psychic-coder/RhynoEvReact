@@ -11,7 +11,7 @@ const SE = () => {
 
   return (
     <div className="">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center bg-CustomBlack-3 ">
         <h1 className="text-[8rem] font-bold text-CustomWhite-1  bg-gradient-to-r from-CustomYellow-1 via-CustomWhite-4 to-CustomYellow-2 inline-block text-transparent bg-clip-text animate-text cursor-pointer">SE03</h1>
         <motion.div
       className="max-w-4xl mx-auto p-6 rounded-lg shadow-xl mt-10"
@@ -103,7 +103,7 @@ const SE = () => {
       </table>
     </div>
   </div>
-</div>
+        </div>
 
 
         </div>

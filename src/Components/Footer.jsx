@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-CustomWhite-1 dark:bg-CustomBlack-3">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div className="mx-auto w-full max-w-screen-xl  py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <Link to="/" className="flex items-center sm:w-22 sm:h-16  w-20 h-12">
+              <Link to="/" className="flex items-center hidden md:block w-22 h-12">
                 <img
                   src="../../public/Rhynologo.png"
                   class="w-full h-full object-cover"
@@ -17,12 +17,12 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12">
-              <div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 px-4">
+              <div className="">
                 <h2 className="mb-6 text-sm font-semibold text-CustomDarkGrey-5 uppercase dark:text-CustomWhite-1">
                   Policies
                 </h2>
-                <ul className="text-CustomDarkGrey-4 dark:text-gray-400 font-medium">
+                <ul className="text-CustomDarkGrey-4 dark:text-gray-400 font-medium ">
                   <li className="mb-4">
                     <a
                       href="#"
