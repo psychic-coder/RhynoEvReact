@@ -17,7 +17,7 @@ const LandingPage = () => {
   }, [words]);
 
   return (
-    <div className="flex flex-col sm:flex-row bg-CustomBlack-3 ">
+    <div className="flex flex-col sm:flex-row bg-CustomBlack-3 px-10">
       <div className="sm:w-1/2 flex px-4 md:my-auto my-10">
         <h2 className="text-CustomWhite-1  md:text-xl lg:text-5xl font-light bg-gradient-to-r from-CustomYellow-1 via-CustomWhite-4 to-CustomYellow-2 inline-block text-transparent bg-clip-text animate-text">
           Let's Elevate Your Ride Experience With Rhyno – Where Superiority
