@@ -36,7 +36,7 @@ const LandingPage = () => {
               <img
                 src="../../public/seLite.png"
                 loading="lazy"
-                alt="Photo by Minh Pham"
+                alt="Se "
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -56,7 +56,7 @@ const LandingPage = () => {
               <img
                 src="../../public/se.png"
                 loading="lazy"
-                alt="Photo by Magicle"
+                alt="Se "
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -76,7 +76,7 @@ const LandingPage = () => {
               <img
                 src="../../public/seMax.png"
                 loading="lazy"
-                alt="Photo by Martin Sanchez"
+                alt="Se "
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -96,7 +96,7 @@ const LandingPage = () => {
               <img
                 src="../../public/allproducts.png"
                 loading="lazy"
-                alt="Photo by Lorenzo Herrera"
+                alt="Se "
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 

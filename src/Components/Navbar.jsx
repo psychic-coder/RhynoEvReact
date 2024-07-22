@@ -36,7 +36,7 @@ const Navbar = () => {
             <img
               src="../../public/Rhynologo.png"
               className="w-full h-full object-cover"
-              alt="Flowbite Logo"
+              alt="RhynoEv Logo"
             />
           </Link>
           <div className="flex flex-col items-center">
