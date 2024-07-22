@@ -7,7 +7,7 @@ const About = () => {
       <h2 className="flex items-center justify-center text-6xl font-bold cursor-pointer mb-10">
         About Us
       </h2>
-      <div className="max-w-4xl mx-auto p-6 rounded-lg shadow-xl shadow-CustomYellow-1 mt-22 ">
+      <div className="max-w-4xl mx-auto p-6 rounded-lg shadow-lg shadow-CustomYellow-1 mt-22 ">
         <p className="text-lg text-CustomYellow-2 leading-relaxed">
           Established in 2019 by an automotive engineer with a vision for
           sustainable and robust mobility solutions,{" "}

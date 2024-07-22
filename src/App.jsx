@@ -11,10 +11,12 @@ import Rentals from './Pages/Rentals'
 import Prebook from './Pages/Prebook'
 import Footer from './Components/Footer'
 import ContactUs from './Pages/ContactUs'
+import Cursor from './Components/Cursor'
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Cursor/>
       <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>} />
