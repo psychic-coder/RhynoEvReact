@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="mb-6 md:mb-0">
               <Link to="/" className="flex items-center hidden md:block w-22 h-12">
                 <img
-                  src="/public/Rhynologo.png"
+                  src="/Rhynologo.png"
                   class="w-full h-full object-cover"
                   alt="Rhyno Logo"
                 />
