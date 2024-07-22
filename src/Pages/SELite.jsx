@@ -187,7 +187,7 @@ const SELite = () => {
           </label>
         </div>
 
-        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg p-2 rounded-md hover:text-CustomYellow-2 hover:bg-CustomDarkGrey-1 bg-CustomDarkGrey-3 cursor-pointer p-4 mb-20">
+        <span class="relative ml-4 inline-block text-sm text-white md:ml-5 md:text-lg  rounded-md hover:text-CustomYellow-2 hover:bg-CustomDarkGrey-1 bg-CustomDarkGrey-3 cursor-pointer p-4 mb-20">
           Buy SE03 Lite
         </span>
       </div>

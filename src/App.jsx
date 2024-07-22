@@ -12,11 +12,16 @@ import Prebook from './Pages/Prebook'
 import Footer from './Components/Footer'
 import ContactUs from './Pages/ContactUs'
 import Cursor from './Components/Cursor'
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Cursor/>
+    {/* <Cursor/> */}
       <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>} />
