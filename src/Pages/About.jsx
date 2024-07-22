@@ -38,7 +38,7 @@ const About = () => {
             class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
           >
             <img
-              src="../../public/seLite.png"
+              src="/seLite.png"
               loading="lazy"
               alt="Photo by Minh Pham"
               class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -54,7 +54,7 @@ const About = () => {
             class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
           >
             <img
-              src="../../public/se.png"
+              src="/se.png"
               loading="lazy"
               alt="Photo by Magicle"
               class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -70,7 +70,7 @@ const About = () => {
             class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
           >
             <img
-              src="../../public/seMax.png"
+              src="/seMax.png"
               loading="lazy"
               alt="Photo by Martin Sanchez"
               class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -86,7 +86,7 @@ const About = () => {
             class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
           >
             <img
-              src="../../public/allproducts.png"
+              src="/allproducts.png"
               loading="lazy"
               alt="Photo by Lorenzo Herrera"
               class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"

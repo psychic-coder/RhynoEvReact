@@ -31,7 +31,7 @@ const SE = () => {
         <div className="flex flex-col md:flex-row mt-20">
           <div className="md:w-1/2 p-4 flex items-center justify-center md:justify-start md:items-start">
             <img
-              src={`../../public/se.png`}
+              src="/se.png"
               alt="SE03 image"
               className="h-auto w-auto object-cover"
             />

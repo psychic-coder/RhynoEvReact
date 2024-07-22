@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
           <Link to="/" className="flex items-center w-22 h-16">
             <img
-              src="../../public/Rhynologo.png"
+              src="/Rhynologo.png"
               className="w-full h-full object-cover"
               alt="RhynoEv Logo"
             />
